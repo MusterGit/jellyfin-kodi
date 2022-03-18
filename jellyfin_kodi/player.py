@@ -49,7 +49,7 @@ class Player(xbmc.Player):
             Accounts for scenario where Kodi starts playback and exits immediately.
             First, ensure previous playback terminated correctly in Jellyfin.
         '''
-        self.stop_playback()
+        #self.stop_playback()
         self.up_next = False
         count = 0
         monitor = xbmc.Monitor()
